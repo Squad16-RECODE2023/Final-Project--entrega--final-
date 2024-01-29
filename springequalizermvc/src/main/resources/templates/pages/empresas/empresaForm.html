@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Empresa</title>
+    <!-- Link para o Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+    	<div th:replace="~{fragments/navbar :: navbar}"></div>
+
+    <div class="container mt-3 mb-5">
+        <h2>Cadastrar Nova Empresa</h2>
+
+        <form th:action="@{/empresas/save}" method="post" th:object="${empresa}">
+           <div class="form-group">
+				<label for="nome">Nome da Empresa:</label>
+				<input type="text" class="form-control" id="nome" name="nome" th:field="*{nome}" />
+			</div>
+
+			<div class="form-group">
+				<label for="descricao">Descrição:</label>
+				<input type="text" class="form-control" id="descricao" name="descricao" th:field="*{descricao}" />
+			</div>
+
+			<div class="form-group">
+				<label for="cnpj">CNPJ:</label>
+				<input type="number" class="form-control" id="cnpj" name="cnpj" th:field="*{cnpj}" />
+			</div>
+
+			<div class="form-group">
+				<label for="departamento">Departamento:</label>
+				<input type="text" class="form-control" id="departamento" name="departamento" th:field="*{departamento}" />
+			</div>
+			
+			<div class="form-group">
+				<label for="qtdfuncionarios">Quantidade de Funcionarios:</label>
+				<input type="number" class="form-control" id="qtdfuncionarios" name="qtdfuncionarios" th:field="*{qtdfuncionarios}" />
+			</div>
+
+            <button type="submit" class="btn btn-primary">Cadastrar Empresa</button>
+        </form>
+        
+        
+        
+    </div>
+    
+    <footer class="container-fluid bg-primary">
+        <div class="container">
+            <!-- FOOTER TOP -->
+            <div class="row justify-content-between">
+                <div class="col-12">
+                    <h2><b> Equalizer </b></h2>
+                </div>
+            </div>
+
+            <!-- FOOTER BOTTOM -->
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <p class="secondary-color text-center"><b>EQUALIZER &copy; 2013</b></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+
+</html>

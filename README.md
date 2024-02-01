@@ -33,8 +33,8 @@ Para mais informações, entre em contato com o Squad-16: [squad16.recode2023@gm
 ## Agradecimentos
 
 O Squad-16 agradece:
-- À RECODE (todos os envolvidos na organização e execução) pelo excelente trabalho na área de ensido com ênfase em TI;
-- À todas as empresas parceiras que patrocinaram e possibilitaram esse importante projeto social de capacitação profissional;
+- À RECODE (todos os envolvidos na organização e execução) pelo excelente trabalho na área de ensino com ênfase em TI;
+- A todas as empresas parceiras que patrocinaram e possibilitaram esse importante projeto social de capacitação profissional;
 - Ao nosso professor Flávio Mota pela eficiente metodologia de ensino que nos seviu como farol no início da jornada em programação;
 - Aos melhores monitores de todos os tempos da história da RECODE: Gabriel Mesquita e Bruna Lins, por toda dedicação, paciência e altíssimo nível de profissionalismo em nos prestar suporte sempre que precisamos; e
 - Agradecemos aos visitantes pelo interesse e apoio ao "EQUALIZER Consultoria". Juntos, construímos uma ferramenta social inovadora e efetiva para promover a diversidade e inclusão.

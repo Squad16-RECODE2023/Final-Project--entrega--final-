@@ -15,7 +15,7 @@ import com.equalizer.entities.Empresa;
 import com.equalizer.service.EmpresaService;
 
 @Controller
-@RequestMapping("/empresas")
+@RequestMapping("/Home")
 public class EmpresaController {
 
     @Autowired

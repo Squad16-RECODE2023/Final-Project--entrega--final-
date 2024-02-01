@@ -1,0 +1,100 @@
+/* Home */
+#first {
+    width: 100.9%;
+    margin-top: -50px;
+    padding: 20px;
+    /* background-color: #143944; */
+    background-image: url('/src/assets/img/bg1-home.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.head_left .h_subTitle {
+    background: #fff;
+    color: #f79c78;
+    font-weight: bold;
+    padding: 7px 20px;
+    border-radius: 20px;
+}
+
+.h_title h1 {
+    font-size: 30px;
+}
+
+.contact_btn {
+    border: 1.5px solid #51d1cf !important;
+    background-color: transparent !important;
+    color: #51d1cf !important;
+    font-weight: bold !important;
+    text-transform: capitalize;
+}
+
+/* Imagem principal de home */
+.imageContainer .head_rightImg {
+    width: 350px;
+    margin: 20px 150px 20px 0;
+    border-radius: 20px;
+}
+
+/* Logo equalizer */
+.curve {
+    width: 100rem;
+    height: 100%;
+    object-fit: cover;
+}
+/*Fim - Home ====================================================================================================*/
+
+
+#second {
+    /* display: flex; */
+    padding: 80px;
+    /* margin: 100px; */
+    background-color: #fff;
+}
+
+#second h5{
+    margin-top: 30px;
+    padding: 0px;
+    color: beige;
+    font-weight: bold;
+}
+
+#second p{
+    color: beige;
+    font-weight: bold;
+}
+
+#second #box1{
+    margin-top: 20px;
+    max-width: 400px;
+    height: 200px;
+    background-color: #143944;
+    border-radius: 20px;
+}
+
+#second #box2{
+    margin-top: 20px;
+    max-width: 400px;
+    height: 200px;
+    background-color: #f79c78;
+    border-radius: 20px;
+}
+
+#second #box3{
+    margin-top: 20px;
+    max-width: 400px;
+    height: 200px;
+    background-color: #51c1df;
+    border-radius: 20px;
+}
+
+.icon-card{
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    /* background-image: url('/src/assets/cook.png'); */
+    margin: 5px;
+    border-radius: 90px;
+
+}

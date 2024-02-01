@@ -1,0 +1,24 @@
+#teste{
+    margin-bottom: 0px;
+    background-color: #143944;
+}
+
+.bg_login {
+    /* background: #fb1c15; */
+    /* background: linear-gradient(0deg, rgba(251,28,21,1) 0%, rgba(255,106,100,1) 35%); */
+    background: #f79c78;
+    border: 1.5px solid #f79c78 !important;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 6px 20px;
+    text-transform: capitalize;
+    transition: background 0.3s ease;
+}
+
+.bg_login:hover {
+    background: #e57a5f;  /* Altera a cor de fundo ao passar o mouse */
+}
+
+a{
+    text-decoration: none;
+}
